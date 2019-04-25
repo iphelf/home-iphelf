@@ -25,18 +25,19 @@ $
 # Registers:
 
 # File marks:
-'0  1  0  ~/init.sh
-'1  1  0  ~/Desktop/.directory
-'2  1  0  ~/.lesshst
-'3  1  0  ~/.xsession-errors
-'4  1  0  ~/.sudo_as_admin_successful
-'5  9  1  ~/.local/share
-'6  20  0  ~/.local/share/recently-used.xbel
-'7  1  0  ~/.ICEauthority
-'8  15  0  ~/.gnupg/private-keys-v1.d
-'9  1  0  ~/Desktop/Test.txt
+'0  1  0  ~/.gitconfig
+'1  1  0  ~/init.sh
+'2  1  0  ~/Desktop/.directory
+'3  1  0  ~/.lesshst
+'4  1  0  ~/.xsession-errors
+'5  1  0  ~/.sudo_as_admin_successful
+'6  9  1  ~/.local/share
+'7  20  0  ~/.local/share/recently-used.xbel
+'8  1  0  ~/.ICEauthority
+'9  15  0  ~/.gnupg/private-keys-v1.d
 
 # Jumplist (newest first):
+-'  1  0  ~/.gitconfig
 -'  1  0  ~/init.sh
 -'  1  0  ~/Desktop/.directory
 -'  1  0  ~/.lesshst
@@ -134,9 +135,11 @@ $
 -'  1  0  ~/.cache/xfce4-indicator-plugin.log
 -'  8  0  ~/.cache
 -'  8  0  ~/.cache
--'  1  0  ~/.cache/xfce4-indicator-plugin.log
 
 # History of marks within files (newest to oldest):
+
+> ~/.gitconfig
+	"	1	0
 
 > ~/init.sh
 	"	1	0
