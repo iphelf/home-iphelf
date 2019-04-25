@@ -25,18 +25,20 @@ $
 # Registers:
 
 # File marks:
-'0  1  0  ~/.lesshst
-'1  1  0  ~/.xsession-errors
-'2  1  0  ~/.sudo_as_admin_successful
-'3  9  1  ~/.local/share
-'4  20  0  ~/.local/share/recently-used.xbel
-'5  1  0  ~/.ICEauthority
-'6  15  0  ~/.gnupg/private-keys-v1.d
-'7  1  0  ~/Desktop/Test.txt
-'8  1  0  ~/Desktop/trash.desktop
-'9  1  0  ~/.bash_history
+'0  1  0  ~/init.sh
+'1  1  0  ~/Desktop/.directory
+'2  1  0  ~/.lesshst
+'3  1  0  ~/.xsession-errors
+'4  1  0  ~/.sudo_as_admin_successful
+'5  9  1  ~/.local/share
+'6  20  0  ~/.local/share/recently-used.xbel
+'7  1  0  ~/.ICEauthority
+'8  15  0  ~/.gnupg/private-keys-v1.d
+'9  1  0  ~/Desktop/Test.txt
 
 # Jumplist (newest first):
+-'  1  0  ~/init.sh
+-'  1  0  ~/Desktop/.directory
 -'  1  0  ~/.lesshst
 -'  1  0  ~/.xsession-errors
 -'  1  0  ~/.sudo_as_admin_successful
@@ -133,10 +135,14 @@ $
 -'  8  0  ~/.cache
 -'  8  0  ~/.cache
 -'  1  0  ~/.cache/xfce4-indicator-plugin.log
--'  8  0  ~/.cache
--'  8  0  ~/.cache
 
 # History of marks within files (newest to oldest):
+
+> ~/init.sh
+	"	1	0
+
+> ~/Desktop/.directory
+	"	1	0
 
 > ~/.lesshst
 	"	1	0
