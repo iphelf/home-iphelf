@@ -1,5 +1,6 @@
 .cache
 .config/google-chrome
+.config/dconf
 .gnupg
 .git
 .local
@@ -7,6 +8,8 @@
 .vim_runtime
 
 .ICEauthority
+.lesshst
+.vim_mru_files
 .Xauthority
 .xsession-errors
 .xsession-errors.old
