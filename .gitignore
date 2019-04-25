@@ -2,6 +2,7 @@
 .cache
 .config/google-chrome
 .config/dconf
+.config/xfce4
 .gnupg
 .git
 .local
