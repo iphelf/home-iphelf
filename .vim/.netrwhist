@@ -1,4 +1,10 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =2
-let g:netrw_dirhist_1='/home/iphelf/.local/share/keyrings'
-let g:netrw_dirhist_2='/home/iphelf/.local/share'
+let g:netrw_dirhist_cnt =8
+let g:netrw_dirhist_1='/home/iphelf/Temporary'
+let g:netrw_dirhist_2='/etc/X11/Xsession.d'
+let g:netrw_dirhist_3='/etc/X11/xkb'
+let g:netrw_dirhist_4='/home/iphelf/Document'
+let g:netrw_dirhist_5='/home/iphelf/Document/sqlite'
+let g:netrw_dirhist_6='/home/iphelf/Document'
+let g:netrw_dirhist_7='/home/iphelf/Document/cpp'
+let g:netrw_dirhist_8='/home/iphelf/Document'

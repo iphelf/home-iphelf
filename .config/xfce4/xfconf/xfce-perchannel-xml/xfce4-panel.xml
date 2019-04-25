@@ -8,6 +8,7 @@
       <property name="position-locked" type="bool" value="true"/>
       <property name="plugin-ids" type="array">
         <value type="int" value="1"/>
+        <value type="int" value="10"/>
         <value type="int" value="2"/>
         <value type="int" value="3"/>
         <value type="int" value="4"/>
@@ -15,6 +16,8 @@
         <value type="int" value="6"/>
         <value type="int" value="7"/>
         <value type="int" value="8"/>
+        <value type="int" value="9"/>
+        <value type="int" value="11"/>
       </property>
       <property name="background-style" type="uint" value="0"/>
       <property name="background-alpha" type="uint" value="80"/>
@@ -41,7 +44,9 @@
       <property name="size-max" type="uint" value="22"/>
       <property name="names-visible" type="array">
         <value type="string" value="network"/>
+        <value type="string" value="task manager"/>
         <value type="string" value="blueman-applet"/>
+        <value type="string" value="thunar"/>
       </property>
     </property>
     <property name="plugin-5" type="string" value="power-manager-plugin"/>
@@ -62,6 +67,9 @@
     <property name="plugin-8" type="string" value="clock">
       <property name="digital-format" type="string" value="%d %b, %H:%M"/>
     </property>
+    <property name="plugin-9" type="string" value="cpugraph"/>
+    <property name="plugin-10" type="string" value="xfce4-notes-plugin"/>
+    <property name="plugin-11" type="string" value="showdesktop"/>
   </property>
   <property name="configver" type="int" value="2"/>
 </channel>

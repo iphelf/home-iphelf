@@ -7,14 +7,19 @@
 
 # hlsearch on (H) or off (h):
 ~h
-# Last Substitute String:
-$
+# Last Search Pattern:
+~MSle0~/1920
 
 # Command Line History (newest to oldest):
 :q
+:;q
+:wq
+:w
 
 # Search String History (newest to oldest):
-? @$
+?/1920
+?/gfxmo
+?/x${G
 
 # Expression History (newest to oldest):
 
@@ -23,159 +28,396 @@ $
 # Input Line History (newest to oldest):
 
 # Registers:
+"0	CHAR	0
+	 #Uncommented by iphelf
+"1	LINE	0
+	GRUB_CMDLINE_LINUX_DEFAULT="maybe-ubiquity"
+"2	LINE	0
+	GRUB_GFXPAYLOAD=1152x864x32
+"3	LINE	0
+	GRUB_GFXPAYLOAD_LINUX=keep
+"4	LINE	0
+	deb file:///media/cdrom2 stretch-updates main
+"5	LINE	0
+	deb file:///media/cdrom2 stretch-security main
+"6	LINE	0
+	deb file:///media/cdrom1 stretch-updates main
+"7	LINE	0
+	deb file:///media/cdrom1 stretch-security main
+"8	LINE	0
+	deb file:///media/cdrom2 bionic-updates main
+"9	LINE	0
+	deb file:///media/cdrom2 bionic-security main
+""-	CHAR	0
+	#
 
 # File marks:
-'0  1  0  ~/.gitconfig
-'1  1  0  ~/init.sh
-'2  1  0  ~/Desktop/.directory
-'3  1  0  ~/.lesshst
-'4  1  0  ~/.xsession-errors
-'5  1  0  ~/.sudo_as_admin_successful
-'6  9  1  ~/.local/share
-'7  20  0  ~/.local/share/recently-used.xbel
-'8  1  0  ~/.ICEauthority
-'9  15  0  ~/.gnupg/private-keys-v1.d
+'0  1  1  ~/README.md
+'1  2  0  ~/.vim_runtime/README.md
+'2  19  1  ~/.vim_runtime/README.md
+'3  1  0  ~/.vim_runtime/temp_dirs/undodir/README.md
+'4  1  3  ~/.vim_runtime/temp_dirs/README.md
+'5  1  0  ~/.ICEauthority
+'6  1  0  ~/.gitignore
+'7  57  49  /etc/ssh/sshd_config
+'8  13  29  /etc/ssh/sshd_config
+'9  13  29  /etc/ssh/sshd_config
 
 # Jumplist (newest first):
--'  1  0  ~/.gitconfig
--'  1  0  ~/init.sh
--'  1  0  ~/Desktop/.directory
--'  1  0  ~/.lesshst
--'  1  0  ~/.xsession-errors
--'  1  0  ~/.sudo_as_admin_successful
--'  9  1  ~/.local/share
--'  1  0  ~/.local/share/keyrings/user.keystore
--'  1  0  ~/.local/share
--'  10  0  ~/.local
--'  14  0  ~/
--'  8  0  ~/.gnupg
--'  8  0  ~/.gnupg/private-keys-v1.d
--'  1  0  ~/.gnupg
--'  1  0  ~/.gnupg/private-keys-v1.d
--'  1  0  ~/.local/share/keyrings/login.keyring
--'  20  0  ~/.local/share/recently-used.xbel
--'  1  0  ~/.local/share/recently-used.xbel
+-'  1  1  ~/README.md
+-'  2  0  ~/.vim_runtime/README.md
+-'  19  1  ~/.vim_runtime/README.md
+-'  330  0  ~/.vim_runtime/README.md
+-'  1  0  ~/.vim_runtime/README.md
+-'  1  0  ~/.vim_runtime/temp_dirs/undodir/README.md
+-'  1  3  ~/.vim_runtime/temp_dirs/README.md
 -'  1  0  ~/.ICEauthority
--'  15  0  ~/.gnupg/private-keys-v1.d
--'  1  0  ~/Desktop/Test.txt
--'  1  0  ~/Desktop/trash.desktop
--'  93  0  ~/Desktop/trash.desktop
--'  8  0  ~/Desktop/trash.desktop
--'  1  0  ~/.bash_history
--'  1  0  ~/.cache/xfce4-indicator-plugin.log
--'  8  0  ~/.cache
--'  8  0  ~/.cache
--'  1  0  ~/.cache/xfce4-indicator-plugin.log
--'  8  0  ~/.cache
--'  8  0  ~/.cache
--'  1  0  ~/.bash_history
--'  1  0  ~/.cache/xfce4-indicator-plugin.log
--'  8  0  ~/.cache
--'  8  0  ~/.cache
--'  1  0  ~/.cache/xfce4-indicator-plugin.log
--'  8  0  ~/.cache
--'  8  0  ~/.cache
--'  1  0  ~/Desktop/trash.desktop
--'  93  0  ~/Desktop/trash.desktop
--'  8  0  ~/Desktop/trash.desktop
--'  1  0  ~/.bash_history
--'  1  0  ~/.cache/xfce4-indicator-plugin.log
--'  8  0  ~/.cache
--'  8  0  ~/.cache
--'  1  0  ~/.cache/xfce4-indicator-plugin.log
--'  8  0  ~/.cache
--'  8  0  ~/.cache
--'  1  0  ~/.bash_history
--'  1  0  ~/.cache/xfce4-indicator-plugin.log
--'  8  0  ~/.cache
--'  8  0  ~/.cache
--'  1  0  ~/.cache/xfce4-indicator-plugin.log
--'  8  0  ~/.cache
--'  8  0  ~/.cache
--'  1  0  ~/Desktop/Test.txt
--'  1  0  ~/Desktop/trash.desktop
--'  93  0  ~/Desktop/trash.desktop
--'  8  0  ~/Desktop/trash.desktop
--'  1  0  ~/.bash_history
--'  1  0  ~/.cache/xfce4-indicator-plugin.log
--'  8  0  ~/.cache
--'  8  0  ~/.cache
--'  1  0  ~/.cache/xfce4-indicator-plugin.log
--'  8  0  ~/.cache
--'  8  0  ~/.cache
--'  1  0  ~/.bash_history
--'  1  0  ~/.cache/xfce4-indicator-plugin.log
--'  8  0  ~/.cache
--'  8  0  ~/.cache
--'  1  0  ~/.cache/xfce4-indicator-plugin.log
--'  8  0  ~/.cache
--'  8  0  ~/.cache
--'  1  0  ~/Desktop/trash.desktop
--'  93  0  ~/Desktop/trash.desktop
--'  8  0  ~/Desktop/trash.desktop
--'  1  0  ~/.bash_history
--'  1  0  ~/.cache/xfce4-indicator-plugin.log
--'  8  0  ~/.cache
--'  8  0  ~/.cache
--'  1  0  ~/.cache/xfce4-indicator-plugin.log
--'  8  0  ~/.cache
--'  8  0  ~/.cache
--'  1  0  ~/.bash_history
--'  1  0  ~/.cache/xfce4-indicator-plugin.log
--'  8  0  ~/.cache
--'  8  0  ~/.cache
--'  1  0  ~/.cache/xfce4-indicator-plugin.log
--'  8  0  ~/.cache
--'  8  0  ~/.cache
--'  1  0  ~/Desktop/Test.txt
--'  1  0  ~/Desktop/trash.desktop
--'  93  0  ~/Desktop/trash.desktop
--'  8  0  ~/Desktop/trash.desktop
--'  1  0  ~/.bash_history
--'  1  0  ~/.cache/xfce4-indicator-plugin.log
--'  8  0  ~/.cache
--'  8  0  ~/.cache
+-'  1  0  ~/.gitignore
+-'  57  49  /etc/ssh/sshd_config
+-'  13  0  /etc/ssh/sshd_config
+-'  13  29  /etc/ssh/sshd_config
+-'  33  0  /etc/ssh/sshd_config
+-'  33  0  /etc/ssh/sshd_config
+-'  1  0  /etc/apt/sources.list
+-'  1  0  /etc/apt/sources.list
+-'  1  0  /etc/apt/sources.list
+-'  1  0  /etc/apt/sources.list
+-'  8  1  /etc/apt/sources.list
+-'  8  1  /etc/apt/sources.list
+-'  8  1  /etc/apt/sources.list
+-'  8  1  /etc/apt/sources.list
+-'  8  0  /etc/apt/sources.list
+-'  8  0  /etc/apt/sources.list
+-'  8  0  /etc/apt/sources.list
+-'  8  0  /etc/apt/sources.list
+-'  3  1  /etc/apt/sources.list
+-'  3  1  /etc/apt/sources.list
+-'  3  1  /etc/apt/sources.list
+-'  3  1  /etc/apt/sources.list
+-'  3  1  /etc/apt/sources.list
+-'  3  1  /etc/apt/sources.list
+-'  3  1  /etc/apt/sources.list
+-'  3  1  /etc/apt/sources.list
+-'  3  76  /etc/apt/sources.list
+-'  3  76  /etc/apt/sources.list
+-'  3  76  /etc/apt/sources.list
+-'  3  76  /etc/apt/sources.list
+-'  1  1  /etc/apt/sources.list
+-'  1  1  /etc/apt/sources.list
+-'  1  1  /etc/apt/sources.list
+-'  1  1  /etc/apt/sources.list
+-'  1  1  /etc/apt/sources.list
+-'  1  1  /etc/apt/sources.list
+-'  1  1  /etc/apt/sources.list
+-'  1  1  /etc/apt/sources.list
+-'  33  18  /etc/ssh/sshd_config
+-'  33  18  /etc/ssh/sshd_config
+-'  33  18  /etc/ssh/sshd_config
+-'  33  18  /etc/ssh/sshd_config
+-'  33  18  /etc/ssh/sshd_config
+-'  33  18  /etc/ssh/sshd_config
+-'  33  18  /etc/ssh/sshd_config
+-'  33  18  /etc/ssh/sshd_config
+-'  34  0  /etc/ssh/sshd_config
+-'  34  0  /etc/ssh/sshd_config
+-'  34  0  /etc/ssh/sshd_config
+-'  34  0  /etc/ssh/sshd_config
+-'  34  0  /etc/ssh/sshd_config
+-'  34  0  /etc/ssh/sshd_config
+-'  34  0  /etc/ssh/sshd_config
+-'  34  0  /etc/ssh/sshd_config
+-'  34  0  /etc/ssh/sshd_config
+-'  34  0  /etc/ssh/sshd_config
+-'  1  0  /etc/ssh/sshd_config
+-'  1  0  /etc/ssh/sshd_config
+-'  1  0  /etc/ssh/sshd_config
+-'  1  0  /etc/ssh/sshd_config
+-'  1  0  /etc/ssh/sshd_config
+-'  1  0  /etc/ssh/sshd_config
+-'  1  0  /etc/ssh/sshd_config
+-'  1  0  /etc/ssh/sshd_config
+-'  1  0  /etc/ssh/sshd_config
+-'  1  0  /etc/ssh/sshd_config
+-'  11  0  /etc/default/grub
+-'  11  0  /etc/default/grub
+-'  11  0  /etc/default/grub
+-'  11  0  /etc/default/grub
+-'  11  0  /etc/default/grub
+-'  11  0  /etc/default/grub
+-'  11  0  /etc/default/grub
+-'  11  0  /etc/default/grub
+-'  11  0  /etc/default/grub
+-'  11  0  /etc/default/grub
+-'  11  0  /etc/default/grub
+-'  11  0  /etc/default/grub
+-'  11  0  /etc/default/grub
+-'  11  0  /etc/default/grub
+-'  11  0  /etc/default/grub
+-'  11  0  /etc/default/grub
+-'  11  0  /etc/default/grub
+-'  11  0  /etc/default/grub
+-'  11  0  /etc/default/grub
+-'  11  0  /etc/default/grub
+-'  11  0  /etc/default/grub
+-'  11  0  /etc/default/grub
+-'  11  0  /etc/default/grub
+-'  11  0  /etc/default/grub
+
+# Bar lines, copied verbatim:
+|1,4
+|2,0,1552458343,,"wq"
+|2,0,1549268271,,"w"
+|2,0,1549267889,,"q"
+|2,1,1549267022,47,"1920"
+|2,1,1549266775,47,"gfxmo"
+|2,1,1549266687,47,"x${G"
+|3,0,0,0,1,0,1552458294," #Uncommented by iphelf"
+|3,0,1,1,1,0,1549268270,"GRUB_CMDLINE_LINUX_DEFAULT=\"maybe-ubiquity\""
+|3,0,2,1,1,0,1549268116,"GRUB_GFXPAYLOAD=1152x864x32"
+|3,0,3,1,1,0,1549266231,"GRUB_GFXPAYLOAD_LINUX=keep"
+|3,0,4,1,1,0,1549213831,"deb file:///media/cdrom2 stretch-updates main"
+|3,0,5,1,1,0,1549213830,"deb file:///media/cdrom2 stretch-security main"
+|3,0,6,1,1,0,1549213828,"deb file:///media/cdrom1 stretch-updates main"
+|3,0,7,1,1,0,1549213828,"deb file:///media/cdrom1 stretch-security main"
+|3,0,8,1,1,0,1549213773,"deb file:///media/cdrom2 bionic-updates main"
+|3,0,9,1,1,0,1549213773,"deb file:///media/cdrom2 bionic-security main"
+|3,1,36,0,1,0,1552458331,"#"
+|4,48,57,49,1552458343,"/etc/ssh/sshd_config"
+|4,49,13,29,1552458284,"/etc/ssh/sshd_config"
+|4,50,13,29,1552458284,"/etc/ssh/sshd_config"
+|4,51,1,0,1551876505,"/etc/apt/sources.list"
+|4,52,8,0,1551843519,"/etc/apt/sources.list"
+|4,53,8,0,1551843519,"/etc/apt/sources.list"
+|4,54,3,76,1549356719,"/etc/apt/sources.list"
+|4,55,3,76,1549356719,"/etc/apt/sources.list"
+|4,56,3,76,1549356719,"/etc/apt/sources.list"
+|4,57,3,76,1549356719,"/etc/apt/sources.list"
+|4,39,57,49,1552458343,"/etc/ssh/sshd_config"
+|4,39,13,0,1552458287,"/etc/ssh/sshd_config"
+|4,39,13,29,1552458284,"/etc/ssh/sshd_config"
+|4,39,33,0,1552458263,"/etc/ssh/sshd_config"
+|4,39,33,0,1552458263,"/etc/ssh/sshd_config"
+|4,39,1,0,1551876505,"/etc/apt/sources.list"
+|4,39,1,0,1551876505,"/etc/apt/sources.list"
+|4,39,1,0,1551876505,"/etc/apt/sources.list"
+|4,39,1,0,1551876505,"/etc/apt/sources.list"
+|4,39,8,1,1551876485,"/etc/apt/sources.list"
+|4,39,8,1,1551876485,"/etc/apt/sources.list"
+|4,39,8,1,1551876485,"/etc/apt/sources.list"
+|4,39,8,1,1551876485,"/etc/apt/sources.list"
+|4,39,8,0,1551843519,"/etc/apt/sources.list"
+|4,39,8,0,1551843519,"/etc/apt/sources.list"
+|4,39,8,0,1551843519,"/etc/apt/sources.list"
+|4,39,8,0,1551843519,"/etc/apt/sources.list"
+|4,39,3,1,1551843502,"/etc/apt/sources.list"
+|4,39,3,1,1551843502,"/etc/apt/sources.list"
+|4,39,3,1,1551843502,"/etc/apt/sources.list"
+|4,39,3,1,1551843502,"/etc/apt/sources.list"
+|4,39,3,1,1551843502,"/etc/apt/sources.list"
+|4,39,3,1,1551843502,"/etc/apt/sources.list"
+|4,39,3,1,1551843502,"/etc/apt/sources.list"
+|4,39,3,1,1551843502,"/etc/apt/sources.list"
+|4,39,3,76,1549356719,"/etc/apt/sources.list"
+|4,39,3,76,1549356719,"/etc/apt/sources.list"
+|4,39,3,76,1549356719,"/etc/apt/sources.list"
+|4,39,3,76,1549356719,"/etc/apt/sources.list"
+|4,39,1,1,1549356688,"/etc/apt/sources.list"
+|4,39,1,1,1549356688,"/etc/apt/sources.list"
+|4,39,1,1,1549356688,"/etc/apt/sources.list"
+|4,39,1,1,1549356688,"/etc/apt/sources.list"
+|4,39,1,1,1549356688,"/etc/apt/sources.list"
+|4,39,1,1,1549356688,"/etc/apt/sources.list"
+|4,39,1,1,1549356688,"/etc/apt/sources.list"
+|4,39,1,1,1549356688,"/etc/apt/sources.list"
+|4,39,33,18,1549353289,"/etc/ssh/sshd_config"
+|4,39,33,18,1549353289,"/etc/ssh/sshd_config"
+|4,39,33,18,1549353289,"/etc/ssh/sshd_config"
+|4,39,33,18,1549353289,"/etc/ssh/sshd_config"
+|4,39,33,18,1549353289,"/etc/ssh/sshd_config"
+|4,39,33,18,1549353289,"/etc/ssh/sshd_config"
+|4,39,33,18,1549353289,"/etc/ssh/sshd_config"
+|4,39,33,18,1549353289,"/etc/ssh/sshd_config"
+|4,39,34,0,1549353276,"/etc/ssh/sshd_config"
+|4,39,34,0,1549353276,"/etc/ssh/sshd_config"
+|4,39,34,0,1549353276,"/etc/ssh/sshd_config"
+|4,39,34,0,1549353276,"/etc/ssh/sshd_config"
+|4,39,34,0,1549353276,"/etc/ssh/sshd_config"
+|4,39,34,0,1549353276,"/etc/ssh/sshd_config"
+|4,39,34,0,1549353276,"/etc/ssh/sshd_config"
+|4,39,34,0,1549353276,"/etc/ssh/sshd_config"
+|4,39,34,0,1549353276,"/etc/ssh/sshd_config"
+|4,39,34,0,1549353276,"/etc/ssh/sshd_config"
+|4,39,1,0,1549353263,"/etc/ssh/sshd_config"
+|4,39,1,0,1549353263,"/etc/ssh/sshd_config"
+|4,39,1,0,1549353263,"/etc/ssh/sshd_config"
+|4,39,1,0,1549353263,"/etc/ssh/sshd_config"
+|4,39,1,0,1549353263,"/etc/ssh/sshd_config"
+|4,39,1,0,1549353263,"/etc/ssh/sshd_config"
+|4,39,1,0,1549353263,"/etc/ssh/sshd_config"
+|4,39,1,0,1549353263,"/etc/ssh/sshd_config"
+|4,39,1,0,1549353263,"/etc/ssh/sshd_config"
+|4,39,1,0,1549353263,"/etc/ssh/sshd_config"
+|4,39,11,0,1549268286,"/etc/default/grub"
+|4,39,11,0,1549268286,"/etc/default/grub"
+|4,39,11,0,1549268286,"/etc/default/grub"
+|4,39,11,0,1549268286,"/etc/default/grub"
+|4,39,11,0,1549268286,"/etc/default/grub"
+|4,39,11,0,1549268286,"/etc/default/grub"
+|4,39,11,0,1549268286,"/etc/default/grub"
+|4,39,11,0,1549268286,"/etc/default/grub"
+|4,39,11,0,1549268286,"/etc/default/grub"
+|4,39,11,0,1549268286,"/etc/default/grub"
+|4,39,11,0,1549268286,"/etc/default/grub"
+|4,39,11,0,1549268286,"/etc/default/grub"
+|4,39,11,0,1549268286,"/etc/default/grub"
+|4,39,11,0,1549268286,"/etc/default/grub"
+|4,39,11,0,1549268286,"/etc/default/grub"
+|4,39,11,0,1549268286,"/etc/default/grub"
+|4,39,11,0,1549268286,"/etc/default/grub"
+|4,39,11,0,1549268286,"/etc/default/grub"
+|4,39,11,0,1549268286,"/etc/default/grub"
+|4,39,11,0,1549268286,"/etc/default/grub"
+|4,39,11,0,1549268286,"/etc/default/grub"
+|4,39,11,0,1549268286,"/etc/default/grub"
+|4,39,11,0,1549268286,"/etc/default/grub"
+|4,39,11,0,1549268286,"/etc/default/grub"
+|4,39,11,0,1549268286,"/etc/default/grub"
+|4,39,11,0,1549268286,"/etc/default/grub"
+|4,39,11,0,1549268286,"/etc/default/grub"
+|4,39,11,0,1549268286,"/etc/default/grub"
+|4,39,11,0,1549268286,"/etc/default/grub"
+|4,39,11,0,1549268286,"/etc/default/grub"
+|4,39,11,0,1549268286,"/etc/default/grub"
+|4,39,11,0,1549268286,"/etc/default/grub"
+|4,39,11,0,1549268286,"/etc/default/grub"
+|4,39,11,0,1549268286,"/etc/default/grub"
+|4,39,11,0,1549268286,"/etc/default/grub"
 
 # History of marks within files (newest to oldest):
 
-> ~/.gitconfig
+> ~/README.md
+	"	1	1
+
+> ~/.vim_runtime/README.md
+	"	2	0
+
+> ~/.vimrc
+	"	38	0
+
+> ~/.vim_runtime/temp_dirs/undodir/README.md
 	"	1	0
 
-> ~/init.sh
-	"	1	0
-
-> ~/Desktop/.directory
-	"	1	0
-
-> ~/.lesshst
-	"	1	0
-
-> ~/.xsession-errors
-	"	1	0
-
-> ~/.sudo_as_admin_successful
-	"	1	0
-
-> ~/.local/share/keyrings/login.keyring
-	"	1	0
-
-> ~/.local/share/recently-used.xbel
-	"	1	0
+> ~/.vim_runtime/temp_dirs/README.md
+	"	1	3
 
 > ~/.ICEauthority
 	"	1	0
 
-> ~/.local/share/keyrings/user.keystore
+> ~/.gitignore
 	"	1	0
 
-> ~/Desktop/Test.txt
-	"	1	0
+> /etc/ssh/sshd_config
+	*	1552458342	0
+	"	57	49
+	^	57	50
+	.	57	49
+	+	34	0
+	+	33	18
+	+	13	29
+	+	57	49
 
-> ~/Desktop/trash.desktop
+> /etc/apt/sources.list
+	*	1551876503	0
 	"	1	0
+	^	8	1
+	.	1	0
+	+	1	0
+	+	2	0
+	+	3	1
+	+	2	1
+	+	1	0
+	+	2	0
+	+	3	0
+	+	1	0
+	+	2	0
+	+	3	0
+	+	7	0
+	+	8	0
+	+	7	0
+	+	5	28
+	+	7	23
+	+	8	39
+	+	8	38
+	+	8	23
+	+	7	31
+	+	8	32
+	+	8	25
+	+	8	0
+	+	8	23
+	+	9	23
+	+	8	0
+	+	9	0
+	+	6	1
+	+	7	0
+	+	1	0
+	+	2	0
+	+	3	0
+	+	1	68
+	+	2	69
+	+	3	68
+	+	1	0
+	+	2	0
+	+	3	0
+	+	6	0
+	+	7	0
+	+	8	0
+	+	6	0
+	+	7	0
+	+	8	0
+	+	3	0
+	+	2	0
+	+	1	0
 
-> ~/.bash_history
-	"	1	0
+> /etc/default/grub
+	*	1549268271	0
+	"	11	0
+	^	10	2
+	.	11	0
+	+	8	13
+	+	7	1
+	+	24	20
+	+	28	0
+	+	24	21
+	+	25	14
+	+	24	21
+	+	25	24
+	+	24	20
+	+	25	23
+	+	26	20
+	+	26	0
+	+	27	19
+	+	11	0
+	+	10	1
+	+	11	0
 
-> ~/.cache/xfce4-indicator-plugin.log
-	"	1	0
+> /etc/grub.d/00_header
+	*	1549267907	0
+	"	42	68
+	^	42	69
+	.	42	68
+	+	41	56
+	+	42	56
+	+	239	0
+	+	238	33
+	+	41	60
+	+	42	66
+	+	41	62
+	+	42	68
+
+> /boot/grub/menu.lst
+	*	1549264417	0
+	"	154	1
+	^	24	2
+	.	24	1
+	+	20	9
+	+	24	1

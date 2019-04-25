@@ -1,0 +1,4 @@
+[Added Associations]
+application/pdf=evince.desktop;
+text/plain=mousepad.desktop;
+image/png=ristretto.desktop;
