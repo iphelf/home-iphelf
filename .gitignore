@@ -5,6 +5,7 @@
 .config/xfce4
 .gnupg
 .git
+.git-credentials
 .local
 .thumbnails
 .vim_runtime

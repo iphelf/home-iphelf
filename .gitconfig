@@ -3,3 +3,5 @@
 	name = iphelf
 [push]
 	default = matching
+[credential]
+	helper = store
