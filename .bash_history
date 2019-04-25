@@ -1272,3 +1272,21 @@ vim .gitignore
 ls
 l
 vim .ICEauthority 
+ls
+ll
+exit
+vim
+exit
+ls
+ll
+man man
+ls
+cd Documents/
+ls
+cd Project/
+ls
+cd ShellScript/
+ls
+vim test.sh 
+gvim test.sh 
+exit

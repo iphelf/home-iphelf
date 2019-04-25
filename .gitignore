@@ -2,8 +2,9 @@
 .config/google-chrome
 .gnupg
 .git
+.local
 .thumbnails
-.vim_runtime/.git
+.vim_runtime
 
 .ICEauthority
 .Xauthority

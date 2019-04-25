@@ -1,5 +1,5 @@
 favorites=exo-web-browser.desktop,exo-file-manager.desktop,qjackctl.desktop,org.gnome.Software.desktop,xfce-settings-manager.desktop,exo-terminal-emulator.desktop
-recent=google-chrome.desktop,org.gnome.Software.desktop,exo-file-manager.desktop,exo-terminal-emulator.desktop
+recent=vim.desktop,google-chrome.desktop,org.gnome.Software.desktop,exo-file-manager.desktop,exo-terminal-emulator.desktop
 button-title=Applications Menu
 button-icon=ubuntustudio-logo-menu
 button-single-row=false
