@@ -1,8 +1,6 @@
 .bash_history
 .cache
-.config/google-chrome
-.config/dconf
-.config/xfce4
+.config
 .gnupg
 .git
 .git-credentials
